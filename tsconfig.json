@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "noImplicitAny": false, // 添加这行来屏蔽一些导入的未定义类型的 js 代码报错
     "target": "esnext",
     "module": "esnext",
     "strict": true,
